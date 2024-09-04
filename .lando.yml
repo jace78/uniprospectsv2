@@ -1,0 +1,9 @@
+name: uniprospects-v2
+recipe: wordpress
+config:
+  php: '8.2'
+  composer_version: '2.7.7'
+  via: apache:2.4
+  webroot: .
+  database: mysql:8.0
+  xdebug: false

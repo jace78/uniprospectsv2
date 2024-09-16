@@ -8,12 +8,12 @@ Template: salient
 Version: 1.0
 */
 
-.nectar-wpcf7-inline-form .vc_col-sm-6:first-child {
+.wpcf7-form .vc_col-sm-6:first-child {
   padding-right: 3rem;
 }
 
-.nectar-wpcf7-inline-form input[type="text"],
-.nectar-wpcf7-inline-form input[type="email"],
-.nectar-wpcf7-inline-form textarea {
-  border-color: #f9f9f9;
+.wpcf7-form input[type="text"],
+.wpcf7-form input[type="email"],
+.wpcf7-form textarea {
+  border-color: #e0dede;
 }

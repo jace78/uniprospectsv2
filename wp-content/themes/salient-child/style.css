@@ -12,6 +12,12 @@ Version: 1.0
   padding-right: 3rem;
 }
 
+@media (max-width: 690px) {
+  .wpcf7-form .vc_col-sm-6:first-child {
+    padding-right: 0;
+  }
+}
+
 .wpcf7-form input[type="text"],
 .wpcf7-form input[type="email"],
 .wpcf7-form textarea {

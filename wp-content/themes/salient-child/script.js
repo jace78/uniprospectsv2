@@ -6,7 +6,7 @@ document.addEventListener( 'wpcf7mailsent', function( event ) {
     el.style.display = 'none';
   });
   // scroll to message
-  document.querySelector('.wpcf7-response-output').scrollIntoView({
+  document.querySelector('.wpcf7-response-output').parentElement.closest('.wpb_row').scrollIntoView({
     behavior: 'smooth'
   });
 }, false );

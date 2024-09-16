@@ -13,7 +13,7 @@ add_action( 'wp_enqueue_scripts', 'salient_child_enqueue_styles', 100);
 
 /* JS */
 function salient_child_enqueue_scripts() {
-	wp_enqueue_script( 'custom-script', get_template_directory_uri() . '/script.js', array( 'jquery' ));
+	wp_enqueue_script( 'salient-child-script', get_stylesheet_directory_uri() . '/script.js');
 }
 add_action( 'wp_enqueue_scripts', 'salient_child_enqueue_scripts' );
 

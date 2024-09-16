@@ -5,4 +5,8 @@ document.addEventListener( 'wpcf7mailsent', function( event ) {
     console.log(el);
     el.style.display = 'none';
   });
+  // scroll to message
+  document.querySelector('.wpcf7-response-output').scrollIntoView({
+    behavior: 'smooth'
+  });
 }, false );

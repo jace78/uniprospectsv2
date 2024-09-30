@@ -22,16 +22,16 @@ $isLocal = !empty($_ENV['LANDO_INFO']);
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', $isLocal ? 'wordpress' : 'aoxntequniprosv2' );
+define( 'DB_NAME', $isLocal ? 'wordpress' : 'uniprospnv2' );
 
 /** Database username */
-define( 'DB_USER', $isLocal ? 'wordpress' : 'aoxntequniprosv2' );
+define( 'DB_USER', $isLocal ? 'wordpress' : 'uniprospnv2' );
 
 /** Database password */
-define( 'DB_PASSWORD', $isLocal ? 'wordpress' : 'Uniprosv2' );
+define( 'DB_PASSWORD', $isLocal ? 'wordpress' : 'Uniprospnv2' );
 
 /** Database hostname */
-define( 'DB_HOST', $isLocal ? 'database' : 'aoxntequniprosv2.mysql.db' );
+define( 'DB_HOST', $isLocal ? 'database' : 'uniprospnv2.mysql.db' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
